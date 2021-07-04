@@ -1,11 +1,11 @@
 # Creating-Taints-for-Modes-K8
 Taints allows to run Pods on Nodes which can tolerate the Taint for a Pod; thus restricting running pods on Nodes. Their types include-
 
-NoSchedule- won't schedule unless nodes tolerates taint
+NoSchedule- The Pod won't be scheduled unless the node that tolerates taint is found.
 
-NoExecute- will throw existing pods whose taint is not tolerated
+NoExecute- Existing pods whose taint is not tolerated by Nodes will be thrown out.
 
-Prefernotolerate- will allow pods to run on non tolerated nodes if tolerated ones not found.
+Prefernotolerate- It will allow pods to run on non tolerated nodes if tolerated ones not found.
 
 Simple example to run a Pod on Taint tolerated Node-
 
