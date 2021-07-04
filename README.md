@@ -5,7 +5,7 @@ NoSchedule- The Pod won't be scheduled unless the node that tolerates taint is f
 
 NoExecute- Existing pods whose taint is not tolerated by Nodes will be thrown out.
 
-Prefernotolerate- It will allow pods to run on non tolerated nodes if tolerated ones not found.
+PreferNoSchedule- It will allow pods to run on non tolerated nodes if tolerated ones not found.
 
 Simple example to run a Pod on Taint tolerated Node-
 
