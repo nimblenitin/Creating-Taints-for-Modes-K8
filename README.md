@@ -1,4 +1,4 @@
-# Creating-Taints-for-Modes-K8
+# Creating-Taints-for-Nodes-K8
 Taints allows to run Pods on Nodes which can tolerate the Taint for a Pod; thus restricting running pods on Nodes. Their types include-
 
 NoSchedule- The Pod won't be scheduled unless the node that tolerates taint is found.
